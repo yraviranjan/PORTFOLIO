@@ -1,0 +1,177 @@
+#head-anim {
+  /*      padding: 15px;
+      border-radius: 20px;
+      background-color: white;*/
+  animation-timing-function: ease-out;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    background-color: black;
+  }
+
+  to {
+    background-color: grey;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+li {
+  color: #616771;
+}
+
+.hr2 {
+  border: 0px;
+}
+
+.footerC {
+  border: 0.5px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.footerC:hover {
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.btnbottom {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 0.5px solid black;
+  border-radius: 17px;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px 30px;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+}
+
+.head {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-size: cover;
+  color: white;
+  border-radius: 20px;
+}
+
+.a {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  margin: 80px;
+  border: 2px solid white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.ulup {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  position: fixed;
+  top: 0;
+  width: 97%;
+}
+
+.lih {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-size: 25px;
+}
+
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: helvetica;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+
+  li {
+    padding: 5px;
+    display: block;
+  }
+}
